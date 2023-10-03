@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:map_prac/screens/places_list.dart';
 import 'package:riverpod/riverpod.dart';
-import 'location_page.dart';
+import 'widgets/location_input.dart';
 
 void main() {
   runApp(ProviderScope(child: const MyApp()));
